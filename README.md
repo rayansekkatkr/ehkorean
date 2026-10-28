@@ -4,16 +4,26 @@ Redesign of [ehkorean.com](https://www.ehkorean.com): a static, dependency-free 
 
 ## Visual identity
 
+Three colours only, defined once at the top of `assets/css/main.css`:
+
 | Token | Value | Use |
 |---|---|---|
-| Background | `#F7F6EE` | page background (`--bg`) |
-| Accent | `#C19951` | buttons, fills, lines, gold text on dark (`--brand-gold`) |
-| Accent (text) | `#7F6233` | small gold text on cream, darker for WCAG AA contrast (`--accent`) |
-| Text | `#614D29` | body text, headings, primary buttons (`--ink`) |
-| Deep | `#3A2E1A` | dark sections and footer (`--deep`) |
-| Typography | Cormorant Garamond | Bold for headings, Medium for body text; self-hosted in `assets/fonts` |
+| `--bg` | `#F7F6EE` | page background |
+| `--brand-gold` | `#C19951` | accent: lines, seals, button edges and hovers, partner band, large text on dark |
+| `--ink` | `#614D29` | text, primary buttons, dark sections and footer |
 
-Logo files: `images/logo-dark.png` (brown, on light backgrounds), `images/logo-light.png` (cream, on photos/dark), `images/logo-gold.png`.
+Every other shade is derived from these three with `color-mix()` (no extra hex values):
+`--bg-2` and `--tint` (light gold washes for alternate sections), `--line` / `--line-soft` (hairlines),
+`--muted` (secondary text), `--accent` (a gold/brown mix, about `#83683A`, for small gold text: `#C19951`
+on cream is only 2.4:1, too low to read), `--gold-on-dark` and `--on-dark-soft` (text on brown sections).
+
+Typography: Cormorant Garamond, Bold for headings and Medium for body text, self-hosted in `assets/fonts`.
+Korean accents use Noto Serif KR and Nanum Brush Script.
+
+Logo files: `images/logo-dark.png` (brown, on light backgrounds), `images/logo-light.png` (cream, on photos),
+`images/logo-gold.png` (gold, on the final call to action).
+
+Photography is lightly graded (calmer saturation and contrast, a soft warm wash) to keep an editorial feel.
 
 ## Pages
 
