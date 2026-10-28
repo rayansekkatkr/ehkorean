@@ -46,8 +46,7 @@
 .collage__seal {
   position: absolute; right: 6%; top: 8%; width: 120px; height: 120px; border-radius: 50%;
   background: var(--brand-gold); color: var(--on-gold); display: flex; align-items: center; justify-content: center; text-align: center;
-  font-family: var(--font-brush); font-size: 30px; line-height: .95; transform: rotate(-8deg);
-}
+  font-family: var(--font-brush); font-size: 30px; line-height: .95; transform: rotate(-8deg); font-size-adjust: none; white-space: nowrap; }
 @media (max-width: 760px) { .collage { height: 460px; } .stats strong { font-size: 48px; } }
 
 /* ---------- Parallax ---------- */
@@ -86,7 +85,7 @@
 
 /* ---------- Method ---------- */
 .method-card { padding: 32px 28px; border-radius: 2px; background: var(--bg); display: flex; flex-direction: column; gap: 14px; }
-.method-card__seal { width: 84px; height: 84px; border-radius: 50%; color: var(--bg); display: flex; align-items: center; justify-content: center; font-family: var(--font-brush); font-size: 40px; }
+.method-card__seal { width: 84px; height: 84px; border-radius: 50%; color: var(--bg); display: flex; align-items: center; justify-content: center; font-family: var(--font-brush); font-size: 34px; line-height: 1; font-size-adjust: none; white-space: nowrap; }
 .method-card h3 { margin-top: 8px; font-family: var(--font-display); font-weight: 700; font-size: 32px; }
 .method-card .when { font-size: 12px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
 .method-card p:last-child { font-size: 16px; line-height: 1.6; color: var(--body); }
@@ -98,7 +97,7 @@
 .days__img { position: absolute; inset: 0; opacity: 0; transition: opacity .9s ease; }
 .days__img.is-on { opacity: 1; }
 .days__visual::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(97,77,41,0.1) 40%, rgba(97,77,41,0.95) 100%); }
-.days__kr { position: absolute; z-index: 2; right: 24px; top: 14px; font-family: var(--font-kr); font-weight: 600; font-size: 96px; line-height: 1; color: rgba(247,246,238,0.85); }
+.days__kr { position: absolute; z-index: 2; right: 24px; top: 14px; font-family: var(--font-kr); font-weight: 600; font-size: 96px; line-height: 1; color: rgba(247,246,238,0.85); font-size-adjust: none; white-space: nowrap; }
 .days__text { position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; padding: 36px; }
 .days__meta { font-size: 13px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--peach); }
 .days__q { margin-top: 12px; font-family: var(--font-display); font-weight: 700; font-style: italic; font-size: clamp(28px, 3.2vw, 46px); line-height: 1.12; max-width: 640px; }
@@ -111,7 +110,7 @@
 .day-btn:hover { border-color: var(--ink); }
 .day-btn__n { font-family: var(--font-display); font-weight: 700; font-size: 26px; width: 44px; color: var(--accent); }
 .day-btn__t { flex: 1; }
-.day-btn__k { font-family: var(--font-kr); font-size: 16px; color: var(--muted); }
+.day-btn__k { font-family: var(--font-kr); font-size: 16px; color: var(--muted); font-size-adjust: none; white-space: nowrap; }
 .day-btn[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); font-weight: 600; }
 .day-btn[aria-selected="true"] .day-btn__n { color: #C19951; }
 .day-btn[aria-selected="true"] .day-btn__k { color: var(--on-dark-soft); }
@@ -156,7 +155,7 @@
 
 /* ---------- Partners strip ---------- */
 .partners-band { position: relative; overflow: hidden; }
-.partners-band__kr { position: absolute; left: -30px; bottom: -70px; font-family: var(--font-kr); font-weight: 600; font-size: 300px; line-height: 1; color: rgba(97,77,41,.12); pointer-events: none; }
+.partners-band__kr { position: absolute; left: -30px; bottom: -70px; font-family: var(--font-kr); font-weight: 600; font-size: 300px; line-height: 1; color: rgba(97,77,41,.12); pointer-events: none; font-size-adjust: none; white-space: nowrap; }
 .partners-band .wrap { position: relative; display: flex; flex-wrap: wrap; gap: 56px; align-items: center; }
 .partners-band__text { flex: 1 1 340px; min-width: 0; }
 .partners-band__text p { margin-top: 26px; font-size: 18px; line-height: 1.65; color: var(--on-gold); max-width: 440px; }
@@ -167,7 +166,7 @@
 }
 .logo-tile:hover { transform: translateY(-6px); box-shadow: 0 24px 40px -24px rgba(97,77,41,0.55); }
 .logo-tile img { max-width: 100%; max-height: 64px; width: auto; }
-.logo-tile span { font-family: var(--font-kr); font-size: 16px; color: #614D29; }
+.logo-tile span { font-family: var(--font-kr); font-size: 16px; color: #614D29; font-size-adjust: none; white-space: nowrap; }
 
 /* ---------- FAQ ---------- */
 .faq { display: flex; flex-wrap: wrap; gap: 56px; }

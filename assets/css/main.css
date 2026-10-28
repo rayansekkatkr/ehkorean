@@ -102,8 +102,8 @@ h1, h2, h3, p, ul, ol, figure { margin: 0; }
 .em-gold { color: var(--gold-on-dark); }
 .lead { font-size: 19px; line-height: 1.7; color: var(--body); }
 .muted { color: var(--muted); }
-.kr { font-family: var(--font-kr); }
-.brush { font-family: var(--font-brush); }
+.kr { font-family: var(--font-kr); font-size-adjust: none; white-space: nowrap; }
+.brush { font-family: var(--font-brush); font-size-adjust: none; white-space: nowrap; }
 
 .section-head {
   display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end;
@@ -293,8 +293,7 @@ fieldset { margin: 0; padding: 0; border: 0; min-width: 0; }
 }
 .cta-banner__kr {
   position: absolute; right: -20px; bottom: -60px; font-family: var(--font-kr); font-weight: 600;
-  font-size: 220px; line-height: 1; color: rgba(247,246,238,0.07); pointer-events: none;
-}
+  font-size: 220px; line-height: 1; color: rgba(247,246,238,0.07); pointer-events: none; font-size-adjust: none; white-space: nowrap; }
 .cta-banner > div { position: relative; }
 @media (max-width: 600px) { .cta-banner { padding: 44px 26px; } }
 
@@ -302,7 +301,7 @@ fieldset { margin: 0; padding: 0; border: 0; min-width: 0; }
 
 
 /* ---------- Brand: Cormorant Garamond everywhere, editorial details ---------- */
-h1, h2, h3, .display, .brush, .kr, .founder__quote, .days__q, .program-day__theme, .glass { font-size-adjust: none; }
+h1, h2, h3, .display, .brush, .kr, [lang="ko"], .founder__quote, .days__q, .program-day__theme, .glass { font-size-adjust: none; }
 .eyebrow { font-weight: 700; letter-spacing: .24em; }
 .btn { font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: 15px; }
 .btn--sm { font-size: 13px; }
