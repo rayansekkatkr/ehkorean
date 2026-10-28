@@ -1,5 +1,5 @@
 /*
- * EH Korean — book a conversation
+ * EH Korean: book a conversation
  *
  * Availability rules live in AVAILABILITY below: weekdays only, from tomorrow,
  * up to MONTHS_AHEAD months ahead. All times are Korea Standard Time (UTC+9).

@@ -1,4 +1,4 @@
-/* EH Korean — multi-step private application */
+/* EH Korean: multi-step private application */
 (function () {
   var form = document.querySelector('[data-apply]');
   if (!form) return;

@@ -1,22 +1,22 @@
-/* EH Korean — seven-day program */
+/* EH Korean: seven-day program */
 (function () {
   var D = [
     { n: 1, dow: 'Friday · Arrival', theme: 'Grounding', ko: '뿌리', img: '/images/day1.jpg', line: 'The journey begins not from a destination, but from you.', route: 'Incheon Airport → Bupyeong',
       blocks: [
         { when: 'Morning', ko: '아침', title: 'Incheon Airport pickup', tags: [], items: ['Private lounge access', 'T-money card & snacks', 'Emergency contact briefing', 'Consent form signing'] },
-        { when: 'Afternoon', ko: '오후', title: 'Orientation · airport area', tags: [], items: ['Welcome kit, Ohaeng Journal and itinerary reveal', 'Personal welcome card, one line in Korean & English', '“Not a trip — a designed shift in perspective”'] },
+        { when: 'Afternoon', ko: '오후', title: 'Orientation · airport area', tags: [], items: ['Welcome kit, Ohaeng Journal and itinerary reveal', 'Personal welcome card, one line in Korean & English', '“Not a trip. A designed shift in perspective.”'] },
         { when: 'Evening', ko: '저녁', title: 'Grounding Circle', tags: [], items: ['Check-in & welcome party', '“Who are you, and what do you want Korea to reveal to you?”', 'Journaling, then return to the hotel in Bupyeong'] }
       ] },
     { n: 2, dow: 'Saturday', theme: 'Observation', ko: '관찰', img: '/images/day2.jpg', line: 'Korea not as backdrop, but as a living system.', route: 'Bupyeong → Chungmuro → Han River',
       blocks: [
         { when: 'Morning', ko: '아침', title: 'Korea Decoded session', tags: [], items: ['The beauty of empty space · Heung and Han', 'Practical expressions: ordering, market dialogue, greeting a hanok host', 'Language as the key to the day’s experience'] },
-        { when: 'Afternoon', ko: '오후', title: 'Korea House, Chungmuro', tags: ['Prompting', 'Docent', 'Debriefing'], items: ['Traditional performance', 'Traditional Korean lunch', '“Not seeing — decoding meaning”'] },
+        { when: 'Afternoon', ko: '오후', title: 'Korea House, Chungmuro', tags: ['Prompting', 'Docent', 'Debriefing'], items: ['Traditional performance', 'Traditional Korean lunch', '“Not seeing, but decoding meaning”'] },
         { when: 'Evening', ko: '저녁', title: 'Han River sunset', tags: ['Prompting', 'Docent', 'Debriefing'], items: ['Catered picnic dinner by the river', 'Han River context talk', 'Journaling at a riverside café · rainy-day plan: karaoke & chimaek'] }
       ] },
     { n: 3, dow: 'Sunday', theme: 'Embodiment', ko: '체화', img: '/images/day3.jpg', line: 'What Korea is, and what it awakens within you.', route: 'Bukchon, Nakgojae area → local market → Korean home',
       blocks: [
         { when: 'Morning', ko: '아침', title: 'Cultural Identity Workshop', tags: ['Prompting', 'Docent', 'Debriefing'], items: ['Hanbok fitting & photo session', 'Calligraphy', 'Tea ceremony (cha-ye-jeol)', 'A/B team rotation, 30–40 min each'] },
-        { when: 'Afternoon', ko: '오후', title: 'Local market & mart', tags: ['Prompting', 'Debriefing'], items: ['How Koreans eat, trade and gather', 'Lunch among locals', 'Not tourism — cultural decoding'] },
+        { when: 'Afternoon', ko: '오후', title: 'Local market & mart', tags: ['Prompting', 'Debriefing'], items: ['How Koreans eat, trade and gather', 'Lunch among locals', 'Not tourism, but cultural decoding'] },
         { when: 'Evening', ko: '저녁', title: 'Korean home visit', tags: [], items: ['Dinner with a curated Korean family', 'Korean home culture, from the inside', 'Close with journaling'] }
       ] },
     { n: 4, dow: 'Monday', theme: 'Modernity', ko: '현대', img: '/images/day4.jpg', line: 'Your life, seen through the way they live.', route: 'Bupyeong → university in Seoul → Seongsu / Gangnam',
@@ -28,7 +28,7 @@
     { n: 5, dow: 'Tuesday', theme: 'Connection', ko: '연결', img: '/images/day5.jpg', line: 'Recovery is not rest. It is a practice.', route: 'Bupyeong → Wonmi Mountain → Starfield Goyang → Eunpyeong',
       blocks: [
         { when: 'Morning', ko: '아침', title: 'Outdoor Korea Decoded · Wonmi Mountain hike', tags: ['Prompting'], items: ['Full Korean hiking gear experience', 'Trail expressions: “I’m tired”, “almost there”', 'Summit break with apple & cucumber', 'Hearty Korean lunch'] },
-        { when: 'Afternoon', ko: '오후', title: 'Aquafield, Starfield Goyang', tags: ['Prompting', 'Debriefing'], items: ['Spa and jjimjilbang', 'Korean recovery culture', '“Not productivity — restoration”'] },
+        { when: 'Afternoon', ko: '오후', title: 'Aquafield, Starfield Goyang', tags: ['Prompting', 'Debriefing'], items: ['Spa and jjimjilbang', 'Korean recovery culture', '“Not productivity, but restoration”'] },
         { when: 'Evening', ko: '저녁', title: 'Private film screening', tags: ['Docent'], items: ['The King’s Warden, in a rented cinema room', 'Context for tomorrow’s visit to Cheongnyongpo', 'Journaling'] }
       ] },
     { n: 6, dow: 'Wednesday', theme: 'History', ko: '역사', img: '/images/day6.jpg', line: 'Where Korea came from. Where you are going.', route: 'Yeongwol, Gangwon Province',

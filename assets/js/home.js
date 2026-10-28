@@ -1,4 +1,4 @@
-/* EH Korean — home page */
+/* EH Korean: home page */
 (function () {
   // ----- Hero carousel -----
   var slides = Array.prototype.slice.call(document.querySelectorAll('.hero__slide'));
@@ -41,7 +41,7 @@
     { tab: 'Day 1', num: '01', theme: 'Grounding', ko: '뿌리', img: '/images/day1.jpg', q: 'What feels different now that you are here?' },
     { tab: 'Day 2', num: '02', theme: 'Observation', ko: '관찰', img: '/images/day2.jpg', q: 'What did you notice today that you might usually overlook?' },
     { tab: 'Day 3', num: '03', theme: 'Embodiment', ko: '체화', img: '/images/day3.jpg', q: 'When did you feel most present today?' },
-    { tab: 'Day 4', num: '04', theme: 'Modernity', ko: '현대', img: '/images/day4.jpg', q: 'What about Korea’s pace felt familiar — or unfamiliar?' },
+    { tab: 'Day 4', num: '04', theme: 'Modernity', ko: '현대', img: '/images/day4.jpg', q: 'What about Korea’s pace felt familiar, or unfamiliar?' },
     { tab: 'Day 5', num: '05', theme: 'Connection', ko: '연결', img: '/images/day5.jpg', q: 'Which conversation stayed with you, and why?' },
     { tab: 'Day 6', num: '06', theme: 'History', ko: '역사', img: '/images/day6.jpg', q: 'What from the past still feels alive here?' },
     { tab: 'Day 7', num: '07', theme: 'Integration', ko: '통합', img: '/images/day7.jpg', q: 'What do you want to remember when you return home?' },

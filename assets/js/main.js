@@ -1,4 +1,4 @@
-/* EH Korean — shared behaviour (header, mobile nav, scroll reveal, forms) */
+/* EH Korean: shared behaviour (header, mobile nav, scroll reveal, forms) */
 (function () {
   document.documentElement.classList.add('js');
 
@@ -51,7 +51,7 @@
 window.EHSubmit = function (formName, data) {
   var endpoint = window.EH_FORM_ENDPOINT;
   if (!endpoint) {
-    console.info('[EH Korean] No form endpoint configured — demo submit:', formName, data);
+    console.info('[EH Korean] No form endpoint configured, demo submit:', formName, data);
     return Promise.resolve({ ok: true, demo: true });
   }
   var payload = Object.assign({ _form: formName, _page: location.pathname }, data);

@@ -1,4 +1,4 @@
-# EH Korean — website
+# EH Korean: website
 
 Redesign of [ehkorean.com](https://www.ehkorean.com): a static, dependency-free site (HTML, CSS, vanilla JS), ready to deploy on Vercel.
 
@@ -11,7 +11,7 @@ Redesign of [ehkorean.com](https://www.ehkorean.com): a static, dependency-free 
 | Accent (text) | `#7F6233` | small gold text on cream, darker for WCAG AA contrast (`--accent`) |
 | Text | `#614D29` | body text, headings, primary buttons (`--ink`) |
 | Deep | `#3A2E1A` | dark sections and footer (`--deep`) |
-| Typography | Cormorant Garamond Bold | headings; Inter for body text |
+| Typography | Cormorant Garamond | Bold for headings, Medium for body text; self-hosted in `assets/fonts` |
 
 Logo files: `images/logo-dark.png` (brown, on light backgrounds), `images/logo-light.png` (cream, on photos/dark), `images/logo-gold.png`.
 
@@ -67,7 +67,7 @@ Edit `AVAILABILITY` at the top of `assets/js/book.js` (weekdays, time slots, mon
 - Conversation length (shown as "30 minutes" on `/book`)
 - Real booking slots
 - Collaboration details for the National Museum of Korea and Seoul Arts Center (`/partners`)
-- Legal pages (Privacy, Terms, Refund policy) — footer links are placeholders
+- Legal pages (Privacy, Terms, Refund policy), footer links are placeholders
 
 ## Image credits
 
