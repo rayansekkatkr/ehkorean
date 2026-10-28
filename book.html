@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a Conversation — EH Korean</title>
+<meta name="description" content="Book a private video conversation with EH Korean to talk through the residency, your intentions, and whether this cohort is right for you.">
+<meta property="og:title" content="Book a Conversation — EH Korean">
+<meta property="og:image" content="/images/og-image.jpg">
+<meta name="theme-color" content="#FBF7F0">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600&family=Nanum+Brush+Script&family=Noto+Serif+KR:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/pages.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__logo" href="/" aria-label="EH Korean home"><img class="logo-dark" src="/images/logo-dark.png" alt="EH Korean"></a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/program">Program</a>
+      <a href="/one-day">One Day</a>
+      <a href="/partners">Partners</a>
+      <a href="/book" aria-current="page">Book a call</a>
+    </nav>
+    <a class="btn btn--sm btn--accent site-header__cta" href="/apply">Apply · 6 seats</a>
+    <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+
+<main id="main" class="wrap flow">
+
+  <aside class="flow__aside">
+    <img class="cover" src="/images/hero-hyangwonjeong.jpg" alt="Hyangwonjeong Pavilion in autumn">
+    <div class="flow__aside-inner" style="justify-content:flex-end;gap:18px">
+      <p class="eyebrow eyebrow--light" style="margin:0;font-size:12px">Experience Korea</p>
+      <h1>Book a <em>conversation.</em></h1>
+      <p>A private video call to talk through the residency, your intentions, and whether this cohort is right for you. No commitment.</p>
+      <div class="aside-facts">
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span data-duration>30 minutes</span> · free</span>
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg>Video call, link sent by email</span>
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.6 2.5 14.4 0 17M12 3.5c-2.5 2.6-2.5 14.4 0 17"/></svg>Times in Korea Standard Time (KST)</span>
+      </div>
+    </div>
+  </aside>
+
+  <div class="flow__main">
+
+    <!-- Pick date & time -->
+    <div class="book-grid" data-pick>
+      <div>
+        <div class="cal-head">
+          <h2 data-month-label></h2>
+          <div class="cal-nav">
+            <button type="button" aria-label="Previous month" data-prev><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <button type="button" aria-label="Next month" data-nextm><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+        <div class="cal-dow" aria-hidden="true"><span>SUN</span><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span></div>
+        <div class="cal-grid" data-cal></div>
+        <p class="cal-legend"><i></i>Available · Nothing works? <a href="mailto:ehkorean826@gmail.com?subject=Conversation%20request">Email us for another time</a></p>
+      </div>
+      <div>
+        <h3 style="font-family:var(--font-display);font-weight:400;font-size:24px" data-date-label>Select a date</h3>
+        <p class="muted" style="font-size:14px;margin:6px 0 18px">Choose a time (KST)</p>
+        <div class="slots" data-slots><p class="slots-empty">Pick an available date to see times.</p></div>
+        <button class="btn btn--ink" type="button" style="width:100%;margin-top:22px" data-continue disabled>Continue →</button>
+      </div>
+    </div>
+
+    <!-- Details -->
+    <form class="pane" data-details hidden novalidate>
+      <div class="booking-summary">
+        <span style="font-size:15px" data-summary></span>
+        <button class="btn btn--ghost btn--sm" type="button" style="min-height:40px" data-change>Change</button>
+      </div>
+      <h2>Almost there.</h2>
+      <div class="grid-2">
+        <div class="field"><label for="b-name">Name</label><input class="input" id="b-name" name="name" type="text" autocomplete="name"></div>
+        <div class="field"><label for="b-email">Email <span class="req">*</span></label><input class="input" id="b-email" name="email" type="email" autocomplete="email" required></div>
+      </div>
+      <div class="field"><label for="b-msg">Anything you'd like us to know beforehand?</label><textarea class="input" id="b-msg" name="message" rows="5"></textarea></div>
+      <input type="hidden" name="slot" data-slot-input>
+      <p class="form-error" data-error role="alert"></p>
+      <button class="btn btn--accent" type="submit" style="align-self:flex-end">Confirm booking</button>
+    </form>
+
+    <!-- Done -->
+    <div class="success" data-booked hidden style="min-height:520px">
+      <span class="success__icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L19 7"/></svg></span>
+      <h2>See you soon.</h2>
+      <p class="lead" style="font-size:17px" data-booked-text></p>
+      <a class="btn btn--ink" href="/apply" style="margin-top:10px">Start your application in the meantime</a>
+    </div>
+  </div>
+</main>
+
+<script src="/assets/js/config.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/book.js"></script>
+</body>
+</html>
