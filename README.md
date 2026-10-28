@@ -2,6 +2,19 @@
 
 Redesign of [ehkorean.com](https://www.ehkorean.com): a static, dependency-free site (HTML, CSS, vanilla JS), ready to deploy on Vercel.
 
+## Visual identity
+
+| Token | Value | Use |
+|---|---|---|
+| Background | `#F7F6EE` | page background (`--bg`) |
+| Accent | `#C19951` | buttons, fills, lines, gold text on dark (`--brand-gold`) |
+| Accent (text) | `#7F6233` | small gold text on cream, darker for WCAG AA contrast (`--accent`) |
+| Text | `#614D29` | body text, headings, primary buttons (`--ink`) |
+| Deep | `#3A2E1A` | dark sections and footer (`--deep`) |
+| Typography | Cormorant Garamond Bold | headings; Inter for body text |
+
+Logo files: `images/logo-dark.png` (brown, on light backgrounds), `images/logo-light.png` (cream, on photos/dark), `images/logo-gold.png`.
+
 ## Pages
 
 | URL | File | Content |
